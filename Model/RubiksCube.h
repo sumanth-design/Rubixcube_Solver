@@ -5,7 +5,17 @@
 #ifndef RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
 #define RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
 
-#include "bits/stdc++.h"
+#include <algorithm>
+#include <array>
+#include <cassert>
+#include <cstdint>
+#include <iostream>
+#include <queue>
+#include <random>
+#include <string>
+#include <unordered_map>
+#include <utility>
+#include <vector>
 
 using namespace std;
 
@@ -186,5 +196,3 @@ public:
 
 #endif //RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
 
-
-#endif //RUBIXCUBESOLVER_GENERICRUBIKSCUBE_H

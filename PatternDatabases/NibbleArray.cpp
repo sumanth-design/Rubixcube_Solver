@@ -3,6 +3,7 @@
 //
 
 #include "NibbleArray.h"
+#include <cassert>
 
 using namespace std;
 
