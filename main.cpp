@@ -12,7 +12,7 @@ int main() {
     for (const auto move : scrambleMoves) {
         std::cout << RubiksCube::getMove(move) << ' ';
     }
-    std::cout << "\\n";
+    std::cout << "\n";
 
     IDDFSSolver<RubiksCubeBitboard, HashBitboard> solver(cube, 3);
     const auto solutionMoves = solver.solve();
@@ -21,7 +21,7 @@ int main() {
     for (const auto move : solutionMoves) {
         std::cout << RubiksCube::getMove(move) << ' ';
     }
-    std::cout << "\\n";
+    std::cout << "\n";
     solver.rubiksCube.print();
     return 0;
 }
