@@ -9,6 +9,8 @@
 #include <array>
 #include <cassert>
 #include <cstdint>
+#include <cstdlib>
+#include <ctime>
 #include <iostream>
 #include <queue>
 #include <random>
